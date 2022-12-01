@@ -6,7 +6,7 @@
 /*   By: aruiz-mo <aruiz-mo@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 16:37:17 by aruiz-mo          #+#    #+#             */
-/*   Updated: 2022/10/20 13:43:28 by aruiz-mo         ###   ########.fr       */
+/*   Updated: 2022/12/01 16:04:52 by aruiz-mo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,6 @@ void	parse(char **argv, t_philosophers *philo)
 	int		i;
 	t_dates	*dates;
 
-	if (str_to_int(argv[1]) == 1)
-	{	
-		print_error(3);
-		return ;
-	}
 	dates = create_dates(argv);
 	i = -1;
 	while (++i < str_to_int(argv[1]))

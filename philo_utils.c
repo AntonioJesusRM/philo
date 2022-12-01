@@ -6,7 +6,7 @@
 /*   By: aruiz-mo <aruiz-mo@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/12 16:23:19 by aruiz-mo          #+#    #+#             */
-/*   Updated: 2022/10/20 13:31:52 by aruiz-mo         ###   ########.fr       */
+/*   Updated: 2022/12/01 16:05:04 by aruiz-mo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,6 @@ void	print_error(int a)
 	}
 	else if (a == 1)
 		printf("Plese use only numbers.\n");
-	else if (a == 2)
-		printf("number_of_philo > 0.\n");
 }
 
 int	check_argv(int argc, char **argv)

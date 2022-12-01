@@ -6,7 +6,7 @@
 /*   By: aruiz-mo <aruiz-mo@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/05 17:40:22 by aruiz-mo          #+#    #+#             */
-/*   Updated: 2022/10/20 13:32:27 by aruiz-mo         ###   ########.fr       */
+/*   Updated: 2022/12/01 16:07:59 by aruiz-mo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ void	init_prog(t_philosophers *philo)
 			printf("ERROR\n");
 			return ;
 		}
+		usleep(200);
 	}
 	dead_check(philo, n_philo);
 	i = -1;
